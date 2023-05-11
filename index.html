@@ -4,43 +4,62 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="Restaurant" content="Restaurant.">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
     <title>Alrayq Restaurant</title>
 </head>
 
 <body>
 
-    <header style="
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          padding: 1.5rem;
-          top: 0;
-          background-color: black;
-        ">
-        <nav style="display: flex; flex-direction: row; gap: 40px">
+    <header>
+        <nav>
+            <img class="logo" src="assets/logo.png" alt="Logo" />
             <ul>
                 <li>
-                    
-                    <img src="assets/Logo.png" alt="Logo" />
+                    <a>Home</a>
                 </li>
                 <li>
-                    <a style="color: white" href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a style="color: white" href="./about.html">About Us</a>
+                    <a href="./about.html">About Us</a>
                 </li>
             </ul>
         </nav>
+        <div class="tag-line">
+            <h2>The most delectable dishes</h1>
+                <h1>In a serene setting</h1>
+        </div>
+        <div class="main-box">
+            <div class="small-box">
+                <img src="/assets/food-menu.png" />
+                <div class="box-text">
+                    <h1>our menu</h1>
+                    <a>View More</a>
+                </div>
+            </div>
+
+            <div class="small-box">
+                <img src="/assets/coffee-cup.png" />
+                <div class="box-text">
+                    <h1>MAIN DRINKS</h1>
+                    <a>View More</a>
+                </div>
+            </div>
+
+            <div class="small-box">
+                <img style="padding-left: 12px;" src="/assets/food-dish.png" />
+                <div class="box-text">
+                    <h1>MAIN DISHES</h1>
+                    <a>View More</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <img style="
-          width: 100%;
-          position: relative;
-          top: 0;
-          z-index: -1;
-        " src="assets/BackgroundNew.png" alt="Background image" />
+
     <main>
         <div style="margin: 90px">
             <h1>badish aghlabak</h1>
@@ -71,10 +90,21 @@
                 and some spinach, served with crispy bread.
             </p>
         </div>
-        <img src="assets/menu.png" alt="Menu" />
+        <div style="display: flex;justify-content: center;align-items: center;">
+
+            <img  src="assets/menu.png" alt="Menu" />
+        </div>
     </main>
-    <footer>
 
-        <h4>© 2023 Alrayq restaurant. </h4>
-
-    </footer>
+    <footer >
+        <div class="footer" >
+          <div>
+            <p style="margin: 0;">© 2023 Alrayq restaurant.</p>
+          </div>
+          <div>
+            <a href="#" style="color: #fff; margin-right: 10px;">Terms of Service</a>
+            <a href="#" style="color: #fff; margin-right: 10px;">Privacy Policy</a>
+            <a href="#" style="color: #fff;">Contact Us</a>
+          </div>
+        </div>
+      </footer>
