@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-image: url("assets/Background.png");
+    height: 1080px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 32px 115px;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+  }
+  
+  header nav ul a {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* <-----------------------class class class class class class class----------------------->  */
+  
+  .tag-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    align-items: start;
+    padding-left: 172px;
+    padding-top: 246px;
+  }
+  .tag-line h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: white;
+  }
+  
+  .tag-line h2 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
+  .main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 188px;
+    gap: 72px;
+  }
+  
+  .small-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    padding: 28px 0px;
+  }
+  .small-box .box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    padding: 16px;
+  }
+  
+  .small-box h1 {
+    font-family: "Julius Sans One", sans-serif;
+    color: white;
+  }
+  .small-box a {
+    font-family: "Roboto";
+    color: #65a89b;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .aboutus header {
+    background-image: url(./assets/AboutUs-bg.png);
+    height: 432px;
+  }
+  .aboutus main h1 {
+    font-family: "Julius Sans One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 85px;
+    color: #000000;
+  }
+  
+  .aboutus main p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      margin: 52px 0px;
+      color: #6C6C6C;
+      
+  }
+  

@@ -4,39 +4,33 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="Restaurant" content="Restaurant.">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alrayq Restaurant</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="aboutus">
 
-    <header style="
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          padding: 1.5rem;
-          top: 0;
-          background-color: black;
-        ">
-        <nav style="display: flex; flex-direction: row; gap: 40px">
+    <header >
+        <nav>
+          <a href="./index.html">  <img class="logo" src="assets/logo.png" alt="Logo" /></a>
             <ul>
                 <li>
-                    <img src="assets/Logo.png" alt="Logo" />
+                    <a href="./index.html">Home</a>
                 </li>
                 <li>
-                    <a style="color: white" href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a style="color: white" href="./about.html">About Us</a>
+                    <a href="./about.html">About Us</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main >
         <div style="margin: 90px">
-            <h1>about us</h1>
+            <h1 >about us</h1>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -56,7 +50,14 @@
         </div>
     </main>
     <footer>
-
-        <h4>© 2023 Alrayq restaurant. </h4>
-
+        <div class="footer">
+            <div>
+                <p style="margin: 0;">© 2023 Alrayq restaurant.</p>
+            </div>
+            <div>
+                <a href="#" style="color: #fff; margin-right: 10px;">Terms of Service</a>
+                <a href="#" style="color: #fff; margin-right: 10px;">Privacy Policy</a>
+                <a href="#" style="color: #fff;">Contact Us</a>
+            </div>
+        </div>
     </footer>
